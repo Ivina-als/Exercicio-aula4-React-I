@@ -5,7 +5,6 @@ const Title = ({ title, styleTitle }) => {
 };
 
 Title.propTypes = {
-  // assim o title só vai aceitar string pq foi tipado. isso não é typescript
   title: propTypes.string.isRequired,
 };
 

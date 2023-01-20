@@ -24,5 +24,4 @@ InputLogin.defaultProps = {
   type: "text",
 };
 
-// alem do propTypes tem o defaultProps tbm pra passar valor default
 export default InputLogin;

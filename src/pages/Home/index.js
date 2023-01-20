@@ -23,5 +23,4 @@ const Home = () => {
   );
 };
 
-//h1 é onde tenho que apagar para componentizar
 export default Home;
