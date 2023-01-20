@@ -22,7 +22,6 @@ InputLogin.propTypes = {
 
 InputLogin.defaultProps = {
   type: "text",
-  handleChange: "",
 };
 
 // alem do propTypes tem o defaultProps tbm pra passar valor default
