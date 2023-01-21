@@ -6,6 +6,7 @@ import Title from "../../components/Title/index";
 import { useNavigate } from "react-router-dom";
 
 import { useState } from "react";
+import SubTitle from "../../components/Subtitle";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -24,15 +25,14 @@ const Login = () => {
       <section className="App-section">
         <div className="div-login">
           <Title id="title-login" title={state} styleTitle="title" />
-          <label
+          <SubTitle
             style={{
               width: "100%",
               wordBreak: "break-all",
               textAlign: "right",
             }}
-          >
-            {user}
-          </label>
+            user={user}
+          />
           <InputLogin type="text" label="Usuário" handleChange={handleChange} />
           <InputLogin type="password" label="Senha" />
           <ButtonDefault name="Entrar" redirection={goHome} />
